@@ -1,0 +1,12 @@
+1. Transactions définies uniquement par ID
+Hypothèse : Chaque individu représente une Transaction unique, regroupant tous les exercices qu’il a effectués, peu importe la session (Set).
+
+* Conséquence :
+
+    Les Transactions seraient uniquement définies par ID.
+    Chaque Transaction regrouperait tous les Items associés à cet individu sur toutes les sessions.
+    Exemple :
+    ID	Items
+    1	BenchPress_Heavy, Squat_Medium, ...
+* À considérer : Cette approche est pertinente si l'analyse se concentre sur les habitudes globales des individus (indépendamment des sessions). Cependant, cela peut regrouper trop d'informations, rendant les transactions complexes.
+
