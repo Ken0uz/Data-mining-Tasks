@@ -54,3 +54,20 @@ Each task is organized in its own folder (`tp1`, `tp2`, `tp3`, ..., `tp6`).
    ```bash
    git clone https://github.com/Ken0uz/Data-mining-Tasks
 
+## Install Dependencies
+
+Ensure you have all the necessary Python libraries installed. You can install the required packages using pip:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+## Run the Notebooks
+Each folder contains a Jupyter Notebook (.ipynb) file for each task. Open these notebooks to run and test the functions. You can use Jupyter Notebook or Jupyter Lab to execute the code:
+
+
+## Dataset
+The dataset used throughout the tasks is provided in the main directory. It is in .csv format and is used for performing the functions described in each task.
+
+## Contributions
+Feel free to fork this repository, make changes, and contribute by submitting pull requests. If you find any issues or have suggestions for improvement, please open an issue!
